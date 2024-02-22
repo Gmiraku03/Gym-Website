@@ -1,0 +1,70 @@
+body{
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: max-content;
+  margin: auto;
+}
+#background-video {
+    height: 100vh;
+    width: 100vw;
+    object-fit: cover;
+    position: fixed;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    z-index: -1;
+  }
+  
+  h1, h2{
+    color: cyan;
+    font-family: Trebuchet MS;
+    font-weight: bold;
+    text-align: center;
+  }
+  
+  h1 {
+    font-size: 2rem;
+    margin-top: 30vh; 
+  }
+  
+  h2 { font-size: 10px; }
+  
+  @media (max-width: 750px) {
+      #background-video { display: none; }
+      body {
+        background: url("https://images.hdqwalls.com/download/1/dwayne-johnson-workout-2018-mw.jpg") no-repeat;
+        background-size:cover;
+      }
+  }
+  a{
+    text-decoration: none;
+    color: white;
+    border-radius: 100px;
+    padding: 10px;
+    border: solid white 2px;
+    transition: .3s;
+  }
+  a:hover{
+    background-color: gold;
+    color: black;
+    border-color: gold;
+  }
+  .FOOTER1{
+    border-radius: 1000px;
+    opacity: 0.8;
+    padding: 10px;
+}
+footer{
+    font-size: 0.8rem;
+    font-style: italic;
+    line-height: 1.4rem;
+    color: white;
+    opacity: 0.8;
+    width:max-content;
+    max-width: 1250px;
+    text-align: center;
+    text-transform: capitalize;
+    padding-top: 200px;
+}
+  
